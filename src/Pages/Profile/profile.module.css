@@ -1,0 +1,28 @@
+.profileWrapper {
+  min-height: 100vh;
+  height: 100vh;
+  /* overflow: hidden !important; */
+  background: var(--bg-color);
+  overflow: hidden;
+}
+.profileMidCol {
+  height: 100vh;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 1024px) {
+  .profileMidCol {
+    height: 84vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+}
+@media screen and (max-width: 990px) {
+  .profileMidCol {
+    height: 94vh !important;
+  }
+}
+/* @media screen and (max-width: 820px) {
+  .profileMidCol {
+    height: 94vh !important;
+  }
+} */

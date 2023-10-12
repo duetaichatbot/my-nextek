@@ -1,0 +1,196 @@
+.searchStudentWrapper {
+  position: relative;
+  top: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  padding-bottom: 4rem;
+}
+.gridContainer {
+  display: grid !important;
+  grid-template-columns: repeat(3, 1fr) !important;
+  height: 3rem !important;
+  overflow-y: scroll;
+}
+.SearchedStudentWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 5rem;
+}
+.codes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 2rem;
+}
+.codes span {
+  display: flex;
+  gap: 1rem;
+}
+.codes span button {
+  border-radius: 38px !important;
+  width: 7rem;
+  background: #f2f2f2;
+  color: black;
+}
+.codes span input {
+  width: 24rem;
+  border-radius: 10px;
+  border: 1px solid grey;
+  height: 4rem;
+  padding-left: 1rem;
+  outline: none;
+}
+.searchedStudentWrapperWithBlur {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 1rem;
+  filter: blur(5px);
+}
+.searchedStudentWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  gap: 1rem;
+}
+
+.searchedStudentWrapper p {
+}
+.searchedStudentDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.searchedStudentDiv img {
+}
+.location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.location p {
+  margin: 0;
+  font-weight: 700;
+}
+.searchedStudentDivSpan {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* margin-top: 1rem; */
+}
+.searchedStudentDivSpan h3 {
+  margin: 0;
+  font-weight: 700;
+}
+.searchedStudentDivSpan div {
+  display: flex;
+  gap: 1rem;
+  width: 23rem !important;
+}
+.searchedStudentDivSpan div p {
+  margin: 0;
+  background: rgba(65, 105, 224, 0.1);
+  padding: 0.4rem;
+  border-radius: 50px;
+  color: #007fff;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.Mobilelocation {
+  display: none !important;
+}
+@media screen and (max-width: 1024px) {
+  .codes {
+    margin-top: 5rem !important;
+  }
+  .codes span {
+    align-items: center !important;
+  }
+  .searchedStudentDiv img {
+    width: 5rem !important;
+    height: 5rem !important;
+  }
+  .codes button {
+    width: 5rem !important;
+    height: 3rem !important;
+    border-radius: 25px !important;
+  }
+  .codes input {
+    width: 18rem !important;
+    height: 3rem !important;
+  }
+  .searchedStudentWrapper {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 606px) {
+  .codes input {
+    width: 50vmin !important;
+  }
+  .searchedStudentDivSpan div p {
+    font-size: 0.6rem !important;
+    /* width: 6rem !important; */
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .location {
+    display: none;
+  }
+  .Mobilelocation {
+    display: flex !important;
+    gap: 1rem !important;
+    align-items: center !important;
+  }
+  .MobilelocationPara {
+    background: none !important;
+    color: black !important;
+    margin: 0 !important;
+    font-weight: 700 !important;
+    width: 0rem !important;
+    /* padding: 0rem !important; */
+  }
+}
+@media screen and (max-width: 414px) {
+  .searchedStudentDiv img {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+  .searchedStudentDivSpan {
+    gap: 0.5rem !important;
+  }
+  .searchedStudentDivSpan h3 {
+    font-size: 1.2rem !important;
+  }
+  .searchedStudentDivSpan div {
+    gap: 0.5rem !important;
+    overflow-x: hidden;
+    width: 13rem !important;
+  }
+  .searchedStudentDivSpan div p {
+    font-size: 0.6rem !important;
+    width: 6rem !important;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+  }
+  .SearchStudentAbout {
+    padding-left: 2rem;
+  }
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr) !important;
+    /* gap: 0.5rem !important; */
+    overflow-y: scroll;
+  }
+}

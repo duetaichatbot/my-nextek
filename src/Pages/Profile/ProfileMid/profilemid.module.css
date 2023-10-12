@@ -1,0 +1,18 @@
+.profileMidRow {
+  /* width: 83rem !important; */
+}
+.ProfileMidRightCol {
+  padding-bottom: 2rem !important;
+}
+@media screen and (max-width: 1024px) {
+  .profileMidRow {
+    position: relative;
+    bottom: 0rem !important;
+  }
+  .ProfileMidRightCol {
+    position: relative;
+    top: 2rem !important;
+  }
+  .ProfileMidLeftCol {
+  }
+}

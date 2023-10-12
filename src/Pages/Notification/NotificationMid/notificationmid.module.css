@@ -1,0 +1,120 @@
+.addSchedule {
+  color: var(--primary-color);
+  font-weight: 600;
+  cursor: pointer;
+}
+.scheduleCard {
+  box-shadow: 1px 2px 7px -1px grey;
+  border-radius: 10px;
+  display: flex;
+  width: min-content !important;
+  justify-content: center;
+  align-items: center;
+}
+.noti_mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 3rem;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  height: 4rem;
+  width: 44rem;
+}
+.noti_namesSpan {
+  padding: 1rem 1rem !important;
+}
+.name {
+  color: white;
+  padding: 0.9rem;
+  border-radius: 10px;
+  margin: 0;
+  width: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.noti_mid p {
+  display: flex;
+  align-items: center;
+}
+.noti_TimeSpan {
+  padding: 0rem 1rem !important;
+}
+.scheduleTimes {
+  width: 10rem;
+}
+.noti_allNoti,
+.noti_btn {
+  border-radius: 10px !important;
+}
+@media screen and (max-width: 1280px) {
+  .scheduleCard {
+    padding: 1rem 0.5rem !important;
+    width: 95% !important;
+  }
+  .scheduleRightSide {
+    flex-direction: column !important;
+  }
+  .AllNotificationBtn {
+    width: 94% !important;
+  }
+  .scheduleTimes {
+    font-size: 0.8rem !important;
+  }
+  .name {
+    width: 3rem;
+    font-size: 0.8rem;
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .scheduleCard {
+    padding: 1rem 0.5rem !important;
+  }
+  .name {
+    width: 3rem;
+    font-size: 0.8rem;
+    height: 3rem;
+  }
+  .noti_mid p {
+    font-size: 0.8rem;
+  }
+  .scheduleRightSide {
+    flex-direction: column !important;
+  }
+  .scheduleTimes {
+    font-size: 0.8rem !important;
+  }
+  .noti_today {
+    font-size: 1.2rem !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  .noti_mid {
+    padding: 0rem 0.5rem;
+  }
+  .noti_mid p {
+    font-size: 0.7rem !important;
+  }
+  .noti_allNoti {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .noti_namesSpan {
+    padding: 0rem 0.5rem !important;
+  }
+  .noti_TimeSpan {
+    padding: 0rem 0rem !important;
+  }
+  .scheduleTimes {
+    font-size: 0.6rem !important;
+  }
+  .noti_mid p {
+    font-size: 0.6rem !important;
+  }
+  .noti_btn {
+    font-size: 0.6rem !important;
+  }
+}

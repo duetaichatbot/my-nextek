@@ -1,0 +1,72 @@
+.QuestionaireWrapper {
+  background-image: url("../../../assets/Questionnaire/QuestionnaireBG.png");
+  background-size: cover;
+  position: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  padding: 3rem 0rem;
+  flex-direction: column;
+  align-items: center;
+}
+.QuestionaireWrapper h1 {
+  margin-bottom: 3rem;
+}
+.GeneralQuestionsDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.GeneralQuestionsSpan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.QuestionaireWrapper h4 {
+  font-weight: 700;
+  margin: 2rem 0rem 1rem 0rem;
+}
+.GeneralQuestionsSpan input {
+  width: 29rem;
+  background: transparent;
+  border: 1px solid grey;
+  border-radius: 10px;
+  height: 3rem;
+  outline: none !important;
+}
+.TechnicianPayPlanDiv,
+.TechnicianPayPlanSpan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TechnicianPayPlanSpan p {
+  text-align: center;
+}
+
+.TechnicianPayPlanInnerSpan {
+  display: flex;
+  gap: 2rem;
+}
+.TechnicianPayPlanInnerSpan button {
+  padding: 0.8rem 2rem !important;
+  border: 1px solid grey;
+  border-radius: 10px !important;
+  border-color: #007fff;
+  color: #007fff;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+/* .TechnicianPayPlanInnerSpan button:focus {
+  border-color: white;
+  color: white;
+  background-color: #007fff;
+} */
+.selected {
+  border-color: white !important;
+  color: white !important;
+  background-color: #007fff !important;
+}

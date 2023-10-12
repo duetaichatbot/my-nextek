@@ -1,0 +1,149 @@
+.HomeFeedwrapper {
+  margin-top: 2rem;
+  border-radius: 10px;
+  height: 84vh;
+  overflow-y: scroll;
+  padding-bottom: 3rem;
+}
+.commentbackBTN {
+  width: fit-content !important;
+}
+.homefeedmain {
+  padding: 1rem 0rem 2.5rem 1.5rem;
+  background-color: var(--bg-secondary-color);
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 8px 2px #bbb8b86e;
+  gap: 1rem;
+}
+.commentArea {
+  width: 96%;
+}
+.replyArea {
+  width: 96%;
+}
+.homefeedinput {
+  padding: 1rem 0rem 0.5rem 0rem;
+  background-color: var(--bg-secondary-color);
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+}
+.commentInput {
+  gap: 1rem !important;
+}
+.Homeinput {
+  border: 1px solid #adabab !important;
+  border-radius: 10px;
+  width: 50rem;
+}
+.HomefeedDesc {
+  font-weight: 700;
+}
+.gallery {
+  display: flex;
+  gap: 1rem;
+}
+.gallery img {
+  width: 13rem;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.homeFeedHeart {
+  margin-top: 0.5rem;
+}
+.profilePic {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.commentPara {
+  word-wrap: break-word;
+}
+@media screen and (max-width: 600px) {
+  .HomeFeedwrapper {
+    width: 92vmin !important;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Postprofile {
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+  }
+  .homeFeedHeart p {
+    font-size: 0.8rem !important;
+    margin: 0 !important;
+    width: auto;
+  }
+  .commentsProfileImg {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  .commentPara,
+  .commentReplybtn {
+    font-size: 0.8rem !important;
+  }
+  .Postprofile h5 {
+    font-size: 1.1rem !important;
+  }
+  .commentArea {
+    width: 90%;
+  }
+  .replyArea {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .commentInputField {
+    height: 2rem !important;
+  }
+  .commentInputBtn {
+    font-size: 0.8rem !important;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .commentInput {
+    gap: 0rem !important;
+  }
+  .Postprofile h5 {
+    font-size: 1rem !important;
+  }
+  .homeFeedHeartIcon {
+    font-size: 0.9rem;
+  }
+  .homeFeedHeart p {
+    font-size: 0.8rem !important;
+    margin: 0rem !important;
+  }
+}
+
+.postField {
+  border: none !important;
+  border-radius: 12px !important;
+}
+
+.postField:focus {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.postField::placeholder {
+  font-size: 16px;
+}
+
+.contentWrapper {
+  background-color: var(--bg-secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

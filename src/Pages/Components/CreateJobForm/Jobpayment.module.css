@@ -1,0 +1,61 @@
+
+.paymentWrapper { 
+    background: url('../../../assets/cardBG.png');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.cardWrapper {
+    width: 30% !important;
+}
+
+.fields {
+    background: transparent !important; 
+    border: none !important;
+    width: 100% !important;
+}
+.fields:focus {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+
+}
+
+.masterCardfield {
+    border: none !important;
+
+}
+
+.masterCardWrapper {
+    height: 4vh !important;
+    background-color: #ffffff56;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+
+.inputfields {
+    background-color: #ffffff56 !important;
+}
+
+.inputfields:focus {
+    box-shadow: none !important;
+    background-color: #ffffff56 ;
+    outline: none !important;
+    border: none !important;
+}
+.inputfields:active {
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
+}
+
+@media only screen and (max-width:600px) {
+    .cardWrapper {
+        width: 95% !important;
+    }
+}

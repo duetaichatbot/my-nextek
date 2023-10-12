@@ -1,0 +1,105 @@
+.DiscussionChatWrapper {
+  padding: 0rem 1rem;
+}
+.DiscussionChatWrapper div {
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 20px;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.DiscussionChatWrapper input {
+  width: 89%;
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+}
+.DiscussionChatIcon {
+  padding: 0.7rem;
+  border-radius: 9px;
+  background: #0d6efd;
+  color: white;
+  cursor: pointer;
+}
+.chatbox {
+  height: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 6px !important;
+  display: flex;
+  flex-direction: column;
+  padding: 0rem !important;
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+}
+.sentBy {
+  /* background-color: blue; */
+  color: white;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  border-radius: 10px;
+}
+.sentBy div {
+  background-color: #007fff;
+  width: 50% !important;
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px !important;
+  align-items: flex-start;
+}
+.sentBy span {
+  width: 100% !important;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+.chatHeader {
+  width: 100%;
+  background-color: #007fff;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.chatHeader img {
+  width: 3rem;
+  height: 3rem;
+}
+.chatHeader p {
+  text-transform: capitalize;
+  font-weight: 700;
+  color: white;
+}
+.sentTo {
+  color: white;
+  width: 100%;
+  padding: 0.5rem 0rem;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+.sentTo div {
+  background-color: grey;
+  width: 50% !important;
+  display: flex;
+  border-radius: 7px !important;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.sentTo span {
+  width: 100% !important;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+}
+@media screen and (max-width: 990px) {
+  .DiscussionChatWrapper {
+    padding: 0rem !important;
+  }
+}

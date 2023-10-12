@@ -1,0 +1,90 @@
+.discussionWrapper {
+  height: 100vh;
+  /* overflow-y: hidden !important; */
+}
+.DiscussionRight {
+  width: 57% !important;
+}
+.textCounter {
+  background-color: #007fff;
+  border-radius: 50%;
+  color: white;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discussionMid {
+  border: 1px solid #d5cbcb;
+  border-radius: 20px;
+  padding: 0.5rem !important;
+}
+.reqImg {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+}
+
+.interestCardWrapper {
+  height: 13rem;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 0.5rem;
+}
+.interstCards {
+  position: relative;
+  background: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+}
+.interestCardWrapper input {
+  border-radius: 10px;
+  border: 1px solid grey;
+  outline: none;
+  padding: 0.5rem 0rem 0.5rem 1rem;
+}
+@media screen and (max-width: 1280px) {
+  .DiscussionRight {
+    width: 57% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .DiscussionRight {
+    width: 56% !important;
+  }
+  .interestCardWrapper {
+    height: 9rem !important;
+  }
+  .interstCards img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .interstCards div {
+    font-size: 0.7rem !important;
+    padding-left: 0.3rem !important;
+  }
+  .textCounter {
+    width: 10px !important;
+    height: 10px !important;
+  }
+}
+@media screen and (max-width: 990px) {
+  .DiscussionRight {
+    overflow-y: hidden !important;
+    height: 100% !important;
+    width: auto !important;
+  }
+  .discussionMid {
+    margin: 0rem !important;
+    padding: 0.5rem 1rem !important;
+  }
+  .discussionWrapper {
+    padding: 0rem 0rem !important;
+    overflow-y: scroll !important;
+  }
+}

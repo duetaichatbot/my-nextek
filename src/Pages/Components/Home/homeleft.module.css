@@ -1,0 +1,118 @@
+.HomeLeftWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100% !important;
+  gap: 1rem;
+}
+.sideLinks {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  top: 2rem;
+  margin-left: 0rem;
+  text-decoration: none;
+  padding: 1rem;
+  display: flex;
+  padding-left: 0rem;
+  width: 15rem !important;
+  border-radius: 10px;
+  padding-left: 1rem;
+  /* opacity: 0.5; */
+}
+
+.sideLinks_active {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  position: relative;
+  top: 2rem;
+  margin-left: 0rem;
+  text-decoration: none;
+  padding: 1rem;
+  display: flex;
+  padding-left: 0rem;
+  width: 14vmax !important;
+  background: rgb(235 235 235);
+  border-radius: 10px;
+  padding-left: 1rem;
+  transition: all 1s;
+}
+.logout {
+  position: relative;
+  top: 2rem;
+  text-decoration: none;
+  width: 14vmax !important;
+  padding: 1rem 0.5rem;
+  color: #a098ae;
+  background-color: #007fff;
+  border-radius: 10px;
+  display: flex;
+  padding-left: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+.logoutname,
+.logoutSvg {
+  font-size: 1.2vmax !important;
+}
+.HomeLeftName {
+  padding-left: 1rem;
+}
+.homeleftSVG,
+.HomeLeftName {
+  font-size: 1.1vmax !important;
+}
+@media screen and (max-width: 1280px) {
+  .homeleftSVG,
+  .HomeLeftName {
+    font-size: 1vmax !important;
+  }
+  .logout {
+    width: 14vmax !important;
+  }
+  .logOutlinks {
+    font-size: 1vmax;
+  }
+  .logOutlinks h5 {
+    font-size: 0.9rem !important;
+  }
+  .sideLinks_active,
+  .sideLinks {
+    width: 14vmax !important;
+  }
+  .HomeLeftWrapper {
+    gap: 0.2rem;
+    padding: 0rem !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .homeleftSVG,
+  .HomeLeftName {
+    font-size: 0.9rem !important;
+  }
+  .HomeLeftName {
+    padding-left: 0.5rem !important;
+  }
+  .sideLinks_active,
+  .sideLinks {
+    width: 10.2rem !important;
+    margin-left: -1rem !important;
+  }
+  .HomeLeftWrapper {
+    gap: 0.2rem;
+    padding-left: 0.5rem !important;
+  }
+  .logout {
+    width: 10.2rem !important;
+    margin-left: -1rem;
+  }
+  .logOutlinks {
+    font-size: 0.9rem;
+  }
+  .logOutlinks h5 {
+    font-size: 0.9rem !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .HomeLeftWrapper {
+    display: none;
+  }
+}

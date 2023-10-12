@@ -1,0 +1,173 @@
+.Comp1Wrapper {
+  width: 100% !important;
+  padding: 0rem 0.5rem !important;
+}
+.Comp1InnerWrapper {
+  display: grid !important;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr) !important;
+  grid-gap: 1rem !important;
+}
+.innerMainWrapper {
+  width: 41rem !important;
+}
+.Comp1Wrapper h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* Remove number spinner from input[type="number"] */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+.Comp1Wrapper label {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+  gap: 0.5rem;
+  font-weight: 700;
+  flex-direction: column;
+}
+.InterestCardMidImg {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+}
+.InterestCardMidBannerImg {
+  width: 20rem;
+  height: 12rem;
+}
+.profilePicDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-direction: column !important;
+}
+.bannerPicDiv {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-direction: column !important;
+}
+
+.profilePiclabel {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.bannerPiclabel {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.profilePicDiv img {
+  /* visibility: ; */
+}
+
+.profilePicDiv label {
+  margin: 0;
+  align-items: center;
+  background: #0d6efd;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: row !important;
+}
+.bannerPiclabel label {
+  margin: 0;
+  align-items: center;
+  background: #0d6efd;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: row !important;
+}
+.InterestCardMidTextArea {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start !important;
+  gap: 1rem;
+  font-weight: 700;
+}
+/* .InterestCardMidTextArea textarea {
+  width: 95% !important;
+} */
+.Comp1Wrapper label input {
+  width: 20rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+}
+.Comp1Wrapper label select {
+  width: 20rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+  outline: none;
+  padding: 0.5rem 0.5rem;
+}
+.Comp1Wrapper label textarea {
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 100% !important;
+  outline: none;
+}
+@media screen and (max-width: 1024px) {
+  .Comp1Wrapper h2 {
+  }
+}
+@media screen and (max-width: 540px) {
+  .innerMainWrapper {
+    width: 100% !important;
+  }
+  .Comp1Wrapper label input,
+  .Comp1Wrapper label select {
+    width: 44vmin;
+  }
+}
+@media screen and (max-width: 420px) {
+  .innerMainWrapper {
+    width: 100% !important;
+  }
+  .Comp1Wrapper label {
+    /* width: fit-content; */
+  }
+  .Comp1Wrapper label input,
+  .Comp1Wrapper label select {
+    width: 44vmin;
+  }
+}
+@media screen and (max-width: 300px) {
+  .innerMainWrapper {
+    width: 100% !important;
+  }
+  .Comp1InnerWrapper {
+    grid-template-columns: none !important;
+  }
+  .InterestCardMidImg {
+    width: 9rem !important;
+  }
+  .InterestCardMidBannerImg {
+    width: 10rem !important;
+  }
+  .Comp1Wrapper label input,
+  .Comp1Wrapper label select {
+    width: 88vmin;
+  }
+}

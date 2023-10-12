@@ -1,0 +1,125 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+  background-color: var(--bg-secondary-color);
+  border-radius: 10px;
+  width: 24rem !important;
+  /* height: 29rem !important; */
+  padding: 1.5rem;
+  gap: 1rem;
+}
+.mainblur {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  z-index: 1;
+  background-color: var(--bg-secondary-color);
+  border-radius: 10px;
+  width: 24rem !important;
+  /* height: 29rem !important; */
+  padding: 1.5rem;
+  gap: 1rem;
+  filter: blur(5px);
+  user-select: none;
+}
+.applicantWrapper {
+  gap: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  height: 86vh;
+  overflow: scroll;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.imgRow img {
+  border-radius: 50%;
+  width: 6.5rem !important;
+  height: 6.5rem !important;
+}
+.professionRow {
+  width: 20rem !important;
+}
+.profession {
+  text-align: center;
+}
+.profession,
+.achievement {
+  padding: 0.5rem;
+  background-color: #cfcfcf4a;
+  border-radius: 10px;
+}
+.achievement {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto !important;
+}
+.achievement p {
+  width: auto !important;
+  margin: 0;
+}
+.achievement p:nth-child(1) {
+  color: #a098ae;
+}
+.achievement p:nth-child(2) {
+  font-weight: 800;
+}
+.instructorAssign button {
+  background-color: #007fff;
+  border: none;
+  border-radius: 10px !important;
+  padding: 0.5rem 1rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 361px) {
+  .main {
+    width: 17rem !important;
+    /* height: 22rem !important; */
+  }
+  .imgRow img {
+    width: 5.5rem !important;
+  }
+  .professionRow {
+    margin: 0 !important;
+    width: 12rem !important;
+  }
+  .profession {
+    font-size: 0.7rem;
+    padding: 1rem 0rem !important;
+  }
+  .achievementRow {
+    margin: 0.5rem 0rem !important;
+  }
+  .achievement {
+    width: auto !important;
+  }
+  .achievement p {
+    width: auto;
+    font-size: 0.6rem !important;
+  }
+  .instructorAssign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem !important;
+  }
+  .instructorAssign button {
+    margin: 0 !important;
+    width: 11rem;
+    font-size: 0.7rem;
+    height: 2.2rem;
+  }
+}

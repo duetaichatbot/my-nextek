@@ -1,0 +1,86 @@
+.studentProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.studentDate {
+  line-height: 10px;
+}
+
+.profileWrapper {
+  margin-top: 50px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.studentBtn {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 0px 0px 20px 20px !important;
+}
+
+.recentActivity {
+  margin-top: 70px;
+}
+
+.category {
+  color: rgba(153, 153, 153, 0.836);
+}
+.studentProfileWrapperBlur {
+  filter: blur(5px);
+  user-select: none;
+}
+.homeRightWrapper {
+  max-height: 150vh;
+  height: 87vh;
+  overflow-y: scroll;
+  overflow-x: hidden !important;
+  /* padding: 10px; */
+}
+
+.homeRightWrapper::-webkit-scrollbar {
+  width: 4px;
+}
+
+.homeRightWrapper::-webkit-scrollbar-track {
+  background: #cecdcda2;
+}
+
+.homeRightWrapper::-webkit-scrollbar-thumb {
+  /* background: #888; scrollbar thumb color */
+  background: var(--btn-primary) !important;
+}
+
+.homeRightWrapper::-webkit-scrollbar-thumb:hover {
+  background: #555; /* scrollbar thumb color on hover */
+}
+@media screen and (max-width: 1280px) {
+  .homerightHeading {
+    font-size: 16px !important;
+    margin: 0;
+  }
+  .studentProfileWrapper {
+  }
+}
+@media screen and (max-width: 1024px) {
+  .homerightHeading {
+    font-size: 12px !important;
+    margin: 0;
+  }
+  .studentProfileWrapper div h6 {
+    font-size: 0.8rem !important;
+  }
+  .studentProfileWrapper div p {
+    font-size: 0.8rem !important;
+  }
+  .homeRightWrapper {
+    padding: 0rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .homeRightWrapper {
+    display: none;
+  }
+}

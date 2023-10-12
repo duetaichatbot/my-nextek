@@ -1,0 +1,96 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.column1 {
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%),
+    url("../../../public/loginColmun.png") !important;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+.choiceText {
+  color: var(--font-color);
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.column2 {
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%),
+    url("../../../public/logjnColumn2.png") !important;
+  background-position: left;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+}
+
+/* X-Small devices (up to 575.98px) */
+@media (max-width: 575.98px) {
+  .choiceText {
+    font-size: 30px;
+  }
+  .column1 {
+    height: 50vh;
+    background-position: 40% 45% !important;
+  }
+  .column2 {
+    height: 50vh;
+    background-position: 40% 45% !important;
+  }
+}
+
+/* Small devices (from 576px) */
+@media (min-width: 576px) {
+  .choiceText {
+    font-size: 30px;
+  }
+  .column1 {
+    height: 50vh;
+    background-position: 0% 40% !important;
+  }
+
+  .column2 {
+    height: 50vh;
+    background-position: 0% 40% !important;
+  }
+}
+
+/* Medium devices (from 768px) */
+@media (min-width: 768px) {
+  .choiceText {
+    font-size: 30px;
+  }
+  .column1 {
+    height: 100vh;
+  }
+  .column2 {
+    height: 100vh;
+  }
+}
+
+/* Extra extra large devices (from 1400px) */
+@media (min-width: 1400px) {
+  .choiceText {
+    font-size: 30px;
+  }
+  .column1 {
+    height: 100vh;
+  }
+  .column2 {
+    height: 100vh;
+  }
+}

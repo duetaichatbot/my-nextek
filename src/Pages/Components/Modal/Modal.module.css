@@ -1,0 +1,31 @@
+.searchFilterButton {
+  border-radius: 10px !important;
+}
+.searchFilterBackButton {
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  background: none;
+  cursor: default;
+}
+.FilterWrapper {
+}
+.FilterWrapper span {
+}
+.FilterWrapper span label {
+  font-weight: 600 !important;
+}
+.FilterWrapper span input {
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
+  outline: none;
+  background: transparent;
+}
+.FilterWrapper span select {
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 0.5rem 0rem 0.5rem 0.5rem;
+  outline: none;
+  background: transparent;
+}

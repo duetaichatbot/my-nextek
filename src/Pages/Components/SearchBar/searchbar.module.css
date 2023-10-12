@@ -1,0 +1,67 @@
+.searchStudentinputArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.searchStudentinputArea button {
+  padding: 0.9rem 3rem;
+  border-radius: 10px !important;
+}
+.searchStudentSpan {
+  border: 1px solid grey;
+  padding: 0rem 1rem;
+  border-radius: 10px;
+
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+.searchStudentSpan input {
+  height: 3rem;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+.searchIcon {
+}
+@media screen and (max-width: 1024px) {
+  .searchStudentSpan {
+    width: 26rem !important;
+    height: 3rem !important;
+  }
+  .searchStudentSpan input {
+    height: 2rem !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .searchStudentinputArea {
+    gap: 1rem !important;
+  }
+  .searchStudentSpan {
+    width: 60vmin !important;
+    height: 3rem !important;
+  }
+  .searchStudentinputArea button {
+    padding: 0.7rem 1rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 422px) {
+  .searchStudentinputArea {
+    gap: 1rem !important;
+  }
+  .searchStudentSpan {
+    width: 17rem !important;
+    height: 3rem !important;
+  }
+  .searchStudentinputArea button {
+    padding: 0.7rem 1rem !important;
+    font-size: 0.8rem !important;
+  }
+}
+@media screen and (max-width: 280px) {
+  .searchStudentSpan {
+    width: 13rem !important;
+  }
+}

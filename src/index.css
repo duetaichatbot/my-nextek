@@ -1,0 +1,37 @@
+:root {
+  --font-family: "Bebas Neue", sans-serif;
+  --font-color: white;
+  --font-color2: #007fff;
+  --btn-primary: #007fff;
+}
+.butt body {
+  font-family: var(--font-family);
+}
+
+h1 {
+  font-family: var(--font-family);
+}
+
+button {
+  background-color: var(--btn-primary);
+  color: var(--font-color);
+  border-radius: 10px !important;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+.profile_contacts{
+  display: flex;
+}
+.profile_contacts .profile_contacts_city{
+   flex: 0.2;
+}
+.profile_contacts .profile_contacts_email{
+   flex: 0.6;
+}
+.profile_contacts .profile_contacts_zip{
+   flex: 0.2;
+}

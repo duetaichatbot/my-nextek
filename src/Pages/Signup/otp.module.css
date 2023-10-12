@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Nunito+Sans&family=Poppins:wght@600&display=swap");
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+.heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.heading p {
+  width: 25rem;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-family: "Mulish", sans-serif !important;
+}
+
+.otpAuhtFields {
+  border: none;
+  border-bottom: 1px solid #979797;
+  -moz-appearance: textfield;
+  appearance: 0;
+  width: 51px;
+  outline: none;
+}
+
+.otpAuhtFields[type="number"] {
+  font-size: 2rem;
+}
+
+.AuthBtn {
+  width: 22rem;
+  border: none;
+  border-radius: 5px;
+  height: 4rem;
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 12rem;
+  cursor: pointer;
+}
+
+.mainBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100% !important;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.footer p,
+.footer NavLink {
+  font-family: "Nunito Sans", sans-serif !important;
+  width: auto;
+}
+@media all and (min-width: 400px) {
+  .mainBtn {
+    font-size: 1.4rem !important;
+  }
+}
+
+@media all and (max-width: 460px) {
+  html {
+    font-size: 85%;
+  }
+
+  .inputs {
+    width: 4rem !important;
+  }
+  .inputFields {
+    gap: 1rem !important;
+    width: 28rem;
+  }
+  .AuthBtn {
+    width: 24rem;
+    height: 4rem;
+  }
+  .heading p {
+    width: 98% !important;
+    font-size: 1.2rem !important;
+  }
+  .otpAuhtFields {
+    width: 40px !important;
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    margin-right: 10px !important;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    border-bottom: 2px grey solid;
+    overflow-y: hidden !important;
+  }
+}
+
+.otpAuhtFields::-webkit-inner-spin-button {
+  display: none !important;
+}
+.otpAuhtFields::-webkit-outer-spin-button {
+  display: none !important;
+}
+
+.otpAuhtFields {
+  margin-right: 10px !important;
+  text-align: center;
+}
+
+.otpAuhtFields:focus {
+  box-shadow: none !important;
+  outline: none;
+  overflow-y: hidden !important;
+}
+
+.otpAuhtFields:hover {
+  box-shadow: none !important;
+  outline: none;
+  overflow-y: hidden !important;
+}

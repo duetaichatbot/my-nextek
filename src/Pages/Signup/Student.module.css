@@ -1,0 +1,156 @@
+.signupWrapper {
+  background-image: url("../../../public/signup_bg.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100%;
+}
+.signupWrapper2 {
+  background-image: url("../../../public/signup_bg.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.wrapper {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+    url("../../../public/dealder_banner_bg.png");
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0 0 4% 4%;
+}
+
+.wrapper h1 {
+  color: var(--font-color);
+}
+
+.wrapper p {
+  color: var(--font-color);
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.formCard {
+  width: 30% !important;
+  background-color: white;
+  margin-top: -170px;
+  border-radius: 20px;
+  padding: 30px 30px 0px 30px;
+  /* margin-bottom: 50px; */
+}
+
+.formWrapper h6 {
+  color: #b5b5be;
+}
+.formWrapper p {
+  font-size: 14px;
+}
+
+.inputFieldsWrap {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid #50b5ff !important;
+}
+
+.fields:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.fields:active {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* X-Small devices (up to 575.98px) */
+@media (max-width: 575.98px) {
+  .formCard {
+    width: 100% !important;
+    background-color: white;
+    margin-top: -100px;
+    border-radius: 20px;
+    padding: 30px 30px 0px 30px;
+    /* margin-bottom: 50px; */
+  }
+}
+
+/* Small devices (from 576px) */
+@media (min-width: 576px) {
+  .wrapper {
+    height: 40vh;
+  }
+
+  .formCard {
+    width: 80% !important;
+    background-color: white;
+    margin-top: -130px;
+    border-radius: 20px;
+    padding: 30px 30px 0px 30px;
+    /* margin-bottom: 50px; */
+  }
+}
+
+/* Medium devices (from 768px) */
+@media (min-width: 768px) {
+  .wrapper {
+    height: 30vh;
+  }
+
+  .formCard {
+    width: 70% !important;
+    background-color: white;
+    margin-top: -100px;
+    border-radius: 20px;
+    padding: 30px 30px 0px 30px;
+    /* margin-bottom: 50px; */
+  }
+}
+
+@media screen and (min-width: 1024px) and (min-height: 600px) {
+  .signupWrapper {
+    height: 145vh;
+  }
+  .signupWrapper2 {
+    height: 145vh;
+  }
+  .wrapper {
+    height: 50vh;
+  }
+  .formCard {
+    width: 70% !important;
+    background-color: white;
+    margin-top: -70px;
+    border-radius: 20px;
+    padding: 30px 30px 0px 30px;
+    /* margin-bottom: 50px; */
+  }
+}
+
+/* Extra extra large devices (from 1400px) */
+@media (min-width: 1400px) {
+  .signupWrapper {
+    height: 115vh;
+  }
+  .signupWrapper2 {
+    height: 110vh;
+  }
+  .formCard {
+    width: 30% !important;
+    background-color: white;
+    margin-top: -170px;
+    border-radius: 20px;
+    padding: 30px 30px 0px 30px;
+    /* margin-bottom: 50px; */
+  }
+}
